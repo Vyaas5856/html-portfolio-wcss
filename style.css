@@ -1,70 +1,96 @@
-body{
-    background-color: antiquewhite;
+.main{
+    background-color:  rgb(231, 227, 224)ivory;
     margin: 0%;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-style: normal;
-}
-
-.res-title{
-    display: block;
-    font-size: 40px;
-    text-align: center;
-    color: rgb(151, 49, 49);
-}
-
-.profile-pic{
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  margin-top: 25px;
-  width: 25%;
-  height: auto;
-  border: 20px solid rgb(236, 177, 89);
-  /*border-radius: 10%;*/
-  width: 250px;
-  
-}
-
-.name{
-    text-align: center;
-    font-size: 55px;
-}
-
-.sub-title{
-    text-align: center;
-}
-
-.Summary > h2{
-    margin-top: -20px;
-    margin-bottom: -5px;
-}
-
-
-.sum-p{
-    text-align:  center;
-    margin-bottom: 1px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.hello{
-    font-weight: 900;
-    color: rgb(7, 25, 82);
-    font-size: 30px;
-    font-family: "Playwrite NZ", cursive;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
+    text-align: justify;
 }
 
 hr{
     border: 3px solid green;
     border-radius: 5px;
+    clear: both;
 }
+.hello{
+    font-weight: 900;
+    color: rgb(7, 25, 82);
+    font-size: 50px;
+    font-family: "Titan One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    background-color: burlywood;
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.profile-pic{
+  display: block;   
+  height: auto;
+  border: 20px solid rgb(90, 118, 146);
+  border-radius: 10%;
+  float: left;
+  width: 250px;
+  margin: 10px 50px 20px 50px ;
+}
+
+.name1{
+    font-family: "Oswald", sans-serif ;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 1px;
+    margin: 30px 180px 0px auto;
+}
+
+.name{
+    text-align: center;
+    font-size: 70px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(201, 133, 113);
+    width: auto;
+    margin: 0px 180px 10px auto;
+}
+
+.summary{
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 50px; 
+}
+
+.sub-title{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin: 10px;
+    color: rgb(197, 136, 60);
+    
+}
+
+.sum-p{
+    text-align:  justify;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 450;
+    margin-bottom: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content{
+    font-size: 1.5rem;
+}
+
 .quals-li{
     text-align:  justify;
     margin-bottom: 1px;
@@ -72,11 +98,29 @@ hr{
     margin-right: 10%;
 }
 
+.work-exp > .sub-title{
+    margin-bottom: 30px;
+}
 .work-exp-li{
     text-align:  justify;
     margin-bottom: 1px;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.work-exp-li-1 ,.Skills-li-1, .work-1{
+    width: 500px;
+    float: left;
+}
+
+.work-exp-li-2 , .Skills-li-2, .work-2{
+    width: 500px;
+    float: right;
+}
+
+.work-1 , .work-2{
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
 .prev-works-li{
@@ -117,4 +161,194 @@ hr{
     width: 290px;
 }
 
+.fin-tg{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media (min-width:1050px) and (max-width: 1350px){
+    .hello{
+        font-size: 1.5rem;
+        width: 30%;
+    }
+
+    .profile-pic{
+        width: 200px;
+    }
+
+    .name1{
+        font-size: 1.5rem;
+    }
+
+    .name{
+        font-size: 3rem;
+    }
+
+    .sum-p{
+        font-size: 1.3rem;
+        margin-bottom: 40px;
+    }
+
+    .sub-title{
+        font-size: 1.8rem;
+    }
+
+    .content{
+        font-size: 1.2rem;
+    }
+
+    .work-exp-li-1 ,.Skills-li-1, .work-1{
+        width: 400px;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    .work-exp-li-2 , .Skills-li-2, .work-2{
+        width: 400px;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}
+
+@media  (max-width:1070px){
+
+    .hello{
+        font-size: 1.3rem;
+        width: 30%;
+    }
+
+    .profile-pic{
+        display: block;
+        width: 200px;
+        margin-left: 38%;
+        margin-right: 30%;
+        clear: right;
+    }
+    
+    .name1{
+        font-size: 1.3rem;
+        clear: left;
+        margin: auto
+
+    }
+
+    .name{
+        font-size: 2.5rem;
+        clear: left;
+        margin: auto
+    }
+
+    .sum-p{
+        font-size: 1.2rem;
+        margin-bottom: 40px;
+    }
+
+    .sub-title{
+        font-size: 1.6rem;
+    }
+
+    .content{
+        font-size: 1rem;
+    }
+
+    .work-exp-li-1 ,.Skills-li-1, .work-1{
+        display: block;
+        width: 100%;
+        text-align: justify;
+        font-size: 1rem;
+        clear: right;
+    }
+    
+    .work-exp-li-2 , .Skills-li-2, .work-2{
+        display: block;
+        width: 100%;
+        text-align: justify;
+        font-size: 1rem;
+        clear: left;
+    }
+
+    .ab{
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+
+    .insta , .linkedin{
+        height: 70px;
+    }
+
+    .gmail{
+        height: 65px;
+    }
+
+    .cont-icons{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+
+    footer{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:700px){
+
+    .hello{
+        font-size: 1.2rem;
+        width: 50%;
+    }
+
+    .profile-pic{
+        display: inline;
+        max-width: fit-content;
+        margin-left: 18%;
+        margin-right: 20%;
+        border: 15px solid rgb(90, 118, 146);
+    }
+
+    .name{
+        font-size: 2.0rem;
+    }
+
+    .sum-p{
+        font-size: 1.1rem;
+        margin-bottom: 0px;
+    }
+
+    .sub-title{
+        font-size: 1.5rem;
+    }
+
+    .content{
+        font-size: 0.9rem;
+    }
+
+    .work-exp-li-1 ,.Skills-li-1, .work-1{
+        font-size: 0.9rem;
+        
+    }
+    
+    .work-exp-li-2 , .Skills-li-2, .work-2{
+        font-size: 0.9rem;
+    }
+
+    .ab{
+        font-size: 1.2rem;
+    }
+
+    .insta , .linkedin{
+        height: 60px;
+    }
+
+    .gmail{
+        height: 59px;
+    }
+}
