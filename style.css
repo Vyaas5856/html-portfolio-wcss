@@ -1,0 +1,120 @@
+body{
+    background-color: antiquewhite;
+    margin: 0%;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.res-title{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(151, 49, 49);
+}
+
+.profile-pic{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  width: 25%;
+  height: auto;
+  border: 20px solid rgb(236, 177, 89);
+  /*border-radius: 10%;*/
+  width: 250px;
+  
+}
+
+.name{
+    text-align: center;
+    font-size: 55px;
+}
+
+.sub-title{
+    text-align: center;
+}
+
+.Summary > h2{
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+
+
+.sum-p{
+    text-align:  center;
+    margin-bottom: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hello{
+    font-weight: 900;
+    color: rgb(7, 25, 82);
+    font-size: 30px;
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+hr{
+    border: 3px solid green;
+    border-radius: 5px;
+}
+.quals-li{
+    text-align:  justify;
+    margin-bottom: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.work-exp-li{
+    text-align:  justify;
+    margin-bottom: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.prev-works-li{
+    text-align:  justify;
+    margin-bottom: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Skills-li{
+    text-align:  justify;
+    margin-bottom: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.ab{
+    text-align: center;
+    margin-bottom: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.abt-link{
+    margin-right: 15px;
+}
+
+.cont-link{
+    margin-left: 15px;
+}
+
+.cont-icons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 290px;
+}
+
+
